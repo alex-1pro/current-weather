@@ -1,0 +1,23 @@
+div.c-weather-card {
+    background-color: rgb(211, 208, 208);
+    font-family: 'Anton', sans-serif;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+div.c-weather-card > div.btn-refresh{
+    display: inline-block;
+    border-radius: 100%;
+    cursor: pointer;
+    padding: 1px 5px 1px 5px;
+}
+
+div.c-weather-card > div.btn-refresh:hover{
+    background-color: #EC6E4C;   
+}
+
+div.c-weather-card > div.card-title-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
